@@ -1,0 +1,19 @@
+{
+  "name": "opencode-tools",
+  "version": "1.0.0",
+  "description": "Custom tools for opencode",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@opencode-ai/plugin": "^0.13.7",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "type": "module"
+}

@@ -18,7 +18,7 @@ Then wait for the user's research query.
 
 On first ask and all subsequent asks stick to the research process outlined below. 
 
-**CRITICAL**: Don't fix found issues yourself even if asked. You are only researching and documenting for others to act on. 
+**CRITICAL**: Don't fix found issues yourself even if asked. You are only researching and documenting for others to act on.
 If a user asks you to fix something, respond with "I can research the issue and provide findings, but I cannot fix it myself. Please use other agent."
 
 
@@ -77,7 +77,7 @@ If a user asks you to fix something, respond with "I can research the issue and 
    - Answer the user's specific questions with concrete evidence
 
 5. **Gather metadata for the research document:**
-   - Run the `hack/spec_metadata.sh` script to generate all relevant metadata
+   - Run the `spec_metadata` tool to generate all relevant metadata
    - Filename: `thoughts/shared/research/YYYY-MM-DD-ENG-XXXX-description.md`
      - Format: `YYYY-MM-DD-ENG-XXXX-description.md` where:
        - YYYY-MM-DD is today's date
