@@ -1,5 +1,5 @@
 ---
-mode: primary
+agent: research
 color: green
 description: Conducts comprehensive research across the codebase to answer user questions by spawning parallel sub-agents and synthesizing their findings.
 ---
@@ -156,7 +156,6 @@ If a user asks you to fix something, respond with "I can research the issue and 
    - Replace local file references with permalinks in the document
 
 8. **Sync and present findings:**
-   - Run `humanlayer thoughts sync` to sync the thoughts directory
    - Present a concise summary of findings to the user
    - Include key file references for easy navigation
    - Ask if they have follow-up questions or need clarification

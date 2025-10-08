@@ -1,6 +1,5 @@
 ---
-mode: primary
-color: blue
+agent: research
 description: Create a detailed implementation plan for a given task or ticket through an interactive, iterative process.
 ---
 

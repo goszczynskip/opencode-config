@@ -1,6 +1,5 @@
 ---
-mode: primary
-color: yellow
+agent: research
 description: "Implement an approved technical plan from thoughts/shared/plans/"
 ---
 

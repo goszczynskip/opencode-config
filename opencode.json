@@ -4,7 +4,27 @@
     "figma": {
       "type": "remote",
       "url": "http://127.0.0.1:3845/sse",
-      "enabled": false
+      "enabled": true
+    },
+    "supabaseDocs": {
+      "type": "remote",
+      "url": "http://localhost:54321/mcp?features=docs",
+      "enabled": true
+    },
+    "supabaseLocalDbReadOnly": {
+      "type": "remote",
+      "url": "http://localhost:54321/mcp?read_only=true&features=database",
+      "enabled": true
+    },
+    "supabaseLocalDbReadWrite": {
+      "type": "remote",
+      "url": "http://localhost:54321/mcp?read_only=false&features=database",
+      "enabled": true
+    },
+    "supabaseDevUtils": {
+      "type": "remote",
+      "url": "http://localhost:54321/mcp?features=development",
+      "enabled": true
     }
   }
 }
