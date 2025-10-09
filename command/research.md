@@ -1,6 +1,5 @@
 ---
 agent: research
-color: green
 description: Conducts comprehensive research across the codebase to answer user questions by spawning parallel sub-agents and synthesizing their findings.
 ---
 # Research Codebase
