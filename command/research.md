@@ -103,14 +103,6 @@ If a user asks you to fix something, respond with "I can research the issue and 
      last_updated_by: [Researcher name]
      ---
 
-     # Research: [User's Question/Topic]
-
-     **Date**: [Current date and time with timezone from step 4]
-     **Researcher**: [Researcher name from thoughts status]
-     **Git Commit**: [Current commit hash from step 4]
-     **Branch**: [Current branch name from step 4]
-     **Repository**: [Repository name]
-
      ## Research Question
      [Original user query]
 
