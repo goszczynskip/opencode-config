@@ -9,22 +9,22 @@
     "supabaseDocs": {
       "type": "remote",
       "url": "http://localhost:54321/mcp?features=docs",
-      "enabled": true
+      "enabled": false
     },
     "supabaseLocalDbReadOnly": {
       "type": "remote",
       "url": "http://localhost:54321/mcp?read_only=true&features=database",
-      "enabled": true
+      "enabled": false
     },
     "supabaseLocalDbReadWrite": {
       "type": "remote",
       "url": "http://localhost:54321/mcp?read_only=false&features=database",
-      "enabled": true
+      "enabled": false
     },
     "supabaseDevUtils": {
       "type": "remote",
       "url": "http://localhost:54321/mcp?features=development",
-      "enabled": true
+      "enabled": false
     }
   }
 }

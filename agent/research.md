@@ -1,25 +1,10 @@
 ---
 mode: primary
-color: blue
 description: Create a detailed research for a specific topic or ticket through an interactive, iterative process.
-tools:
-  "*": false
-  bash: true
-  grep: true
-  glob: true
-  read: true
-  write: true
-  list: true
-  todowrite: true
-  webfetch: true
-  figma: true
-  supabaseDocs: true
-  supabaseLocalDbReadOnly: true
-  supabaseDevUtils: true
 permission:
-  "*": deny
+  "*": ask
   bash:
-    "*": deny
+    "*": ask
     "ls": allow
     "pwd": allow
     "git status*": allow

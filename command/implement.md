@@ -1,5 +1,5 @@
 ---
-agent: research
+agent: build
 description: "Implement an approved technical plan from thoughts/shared/plans/"
 ---
 
