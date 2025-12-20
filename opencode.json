@@ -3,8 +3,8 @@
   "mcp": {
     "figma": {
       "type": "remote",
-      "url": "http://127.0.0.1:3845/sse",
-      "enabled": true
+      "url": "http://localhost:3845/mcp",
+      "enabled": false
     },
     "supabaseDocs": {
       "type": "remote",
@@ -26,5 +26,8 @@
       "url": "http://localhost:54321/mcp?features=development",
       "enabled": false
     }
-  }
+  },
+  "tools": {
+    "figma*": false
+  },
 }
