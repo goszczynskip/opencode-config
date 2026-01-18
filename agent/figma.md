@@ -2,15 +2,15 @@
 name: figma-assistant
 mode: subagent
 description: Extract design assets and information from Figma files to support development tasks. It supports retrieving design information from currently selected node or from figma URLs.
-tools:
-  "*": false
-  "figma*": true
-  grep: true
-  glob: true
-  read: true
-  list: true 
-  todowrite: true
-  webfetch: true
+permission:
+  "*": deny
+  "figma_*": allow
+  read: allow
+  grep: allow
+  glob: allow
+  list: allow
+  todowrite: allow
+  webfetch: allow
 ---
 
 Your job is to assist in extracting design assets and information from Figma via MCP to support development tasks. You have access to the Figma MCP tools, which allows you to interact with Figma files, retrieve design elements, and gather relevant information.

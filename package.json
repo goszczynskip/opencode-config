@@ -8,7 +8,7 @@
     "dev": "tsc --watch"
   },
   "dependencies": {
-    "@opencode-ai/plugin": "1.1.1",
+    "@opencode-ai/plugin": "1.1.25",
     "zod": "^3.22.0"
   },
   "devDependencies": {
