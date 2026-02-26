@@ -30,17 +30,53 @@
       "type": "remote",
       "url": "http://localhost:54321/mcp?features=development",
       "enabled": true
+    },
+    "granola": {
+      "type": "remote",
+      "url": "https://mcp.granola.ai/mcp",
+      "enabled": true
+    },
+  },
+  "agent": {
+    "plan": {
+      "permission": {
+        "bash": {
+          "gog drive upload*": "ask",
+          "gog drive copy*": "ask",
+          "gog drive mkdir*": "ask",
+          "gog drive move*": "ask",
+          "gog drive rename*": "ask",
+          "gog drive share*": "ask",
+          "gog drive unshare*": "ask",
+          "gog drive delete*": "ask",
+          "gog drive delete* --permanent*": "deny",
+
+          "gog docs create*": "ask",
+          "gog docs copy*": "ask",
+          "gog docs write*": "ask",
+          "gog docs insert*": "ask",
+          "gog docs delete*": "ask",
+          "gog docs update*": "ask",
+          "gog docs find-replace*": "ask",
+
+          "gog sheets create*": "ask",
+          "gog sheets copy*": "ask",
+          "gog sheets update*": "ask",
+          "gog sheets append*": "ask",
+          "gog sheets clear*": "ask",
+          "gog sheets format*": "ask",
+
+          "gog slides create*": "ask",
+          "gog slides copy*": "ask",
+          "gog slides create-from-markdown*": "ask",
+          "gog slides add-slide*": "ask",
+          "gog slides replace-slide*": "ask",
+          "gog slides update-notes*": "ask",
+          "gog slides delete-slide*": "ask",
+
+          "gog * --force*": "deny",
+        }
+      }
     }
   },
-  "permission": {
-    "figma_*": "deny",
-    "gh_grep_*": "deny",
-    "supabaseDocs_*": "deny",
-    "supabaseLocalDbReadOnly_*": "deny",
-    "supabaseLocalDbReadWrite_*": "deny",
-    "supabaseDevUtils_*": "deny"
-  },
-  "experimental": {
-    "disable_paste_summary": true
-  }
 }
